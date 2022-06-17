@@ -22,28 +22,28 @@ app.get("/:name", async (req, res) => {
       start = 3;
       break;
     case "kinh-doanh":
-      start = 3;
+      start = 4;
       break;
     case "cong-nghe":
-      start = 3;
+      start = 5;
       break;
     case "suc-khoe":
-      start = 3;
+      start = 6;
       break;
     case "the-thao":
-      start = 3;
+      start = 7;
       break;
     case "giai-tri":
-      start = 3;
+      start = 8;
       break;
     case "doi-song":
-      start = 3;
+      start = 9;
       break;
     case "du-lich":
-      start = 3;
+      start = 10;
       break;
     case "lifestyle":
-      start = 3;
+      start = 11;
       break;
     default:
       start = 0;
